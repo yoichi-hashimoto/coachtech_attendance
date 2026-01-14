@@ -1,0 +1,43 @@
+.login-form{
+    width: 680px;
+    margin: 100px auto;
+    display: block;
+}
+
+.login-title{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.input-form{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.submit-button{
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.login-route{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.login-link{
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

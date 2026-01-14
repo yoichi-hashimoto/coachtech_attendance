@@ -1,0 +1,49 @@
+body{
+    background-color: #e7e7e7
+}
+
+.staff-page{
+    width: 900px;
+    margin: 200px auto;
+}
+
+.head-title {
+    margin-top: 150px;
+    border-left: solid black 10px;
+}
+
+.staff-table{
+    margin-top: 50px;
+    width:100% ;
+    background-color: white;
+    border-radius: 5px;
+    color:#737373 ;
+    border-collapse:collapse ;
+}
+
+.staff-table td ,th{
+    text-align: center;
+    border-bottom: solid 3px #e7e7e7;
+    padding: 10px;
+}
+
+.approve-status{
+    border-bottom: 1px solid black;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.approve-status a{
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+}
+
+.approve-status a.active{
+    font-weight: bold;
+}
+
+.detail-link {
+    text-decoration: none;
+    color: black;
+}

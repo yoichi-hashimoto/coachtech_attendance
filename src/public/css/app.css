@@ -1,0 +1,36 @@
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+}
+
+.header-logo{
+    width: 370px;
+    height: 36px;
+}
+
+.header-links{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav a ,nav button{
+    text-decoration:none;
+    background-color: black;
+    border:none;
+    color: white;
+    margin: 0px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    cursor:pointer;
+}

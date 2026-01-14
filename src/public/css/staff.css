@@ -1,0 +1,28 @@
+body{
+    background-color: #e7e7e7
+}
+
+.staff-page{
+    width: 900px;
+    margin: 200px auto;
+}
+
+.head-title {
+    margin-top: 100px;
+    border-left: solid black 10p
+}
+
+.staff-table{
+    margin-top: 50px;
+    width:100% ;
+    background-color: white;
+    border-radius: 5px;
+    color:#737373 ;
+    border-collapse:collapse ;
+}
+
+.staff-table td ,th{
+    text-align: center;
+    border-bottom: solid 3px #e7e7e7;
+    padding: 10px;
+}

@@ -1,0 +1,101 @@
+body{
+    background-color: #D9D9D9;
+}
+
+.attendance-list{
+    width: 900px;
+    margin:200px auto;
+}
+
+.head-title{
+    border-left: 10px solid black;
+}
+
+.month-select{
+    margin-top: 50px;
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.month-select a{
+    text-decoration: none;
+    color: black;
+}
+
+.previous-month a{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor:pointer;
+}
+
+.current-month{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.next-month a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor:pointer;
+}
+
+.calender-logo{
+    width:25px;
+    height: 25px;
+}
+
+.direction-logo{
+    width: 20px;
+    height: 15px;
+}
+
+.attend-table{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px auto;
+    border-collapse: separate;
+}
+
+.attend-table th{
+    width: 200px;
+    padding: 10px;
+    border-bottom:solid 3px #E1E1E1;
+    color: #737373;
+}
+
+.attend-table td{
+    text-align: center;
+    padding: 10px;
+}
+
+.detail-link{
+    text-decoration: none;
+    color: #737373;
+}
+
+.csv-output{
+    text-align: right;
+}
+
+.csv-output-button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+

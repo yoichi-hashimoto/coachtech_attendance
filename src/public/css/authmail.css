@@ -1,0 +1,45 @@
+.authmail-form{
+    width: 750px;
+    margin: 200px auto;
+    display: block;
+}
+
+.auth-text{
+    text-align: center;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.auth-submit{
+    text-align: center;
+}
+
+.submit-button{
+    width: 200px;
+    background-color:#D9D9D9;
+    font-size: 20px;
+    border-radius: 5px;
+    margin:auto;
+    cursor: pointer;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.authmail-route{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.authmail-link{
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
