@@ -16,44 +16,46 @@
 
 ##Dockerビルド
 
-    -git clone git@github.com:yoichi-hashimoto/coachtech_attendance.git
-    -docker compose up -d --build
+    git clone git@github.com:yoichi-hashimoto/coachtech_attendance.git
+    docker compose up -d --build
 
 ##laravel環境構築
-    -docker-compose exec php bash
 
-    -composer install
+    docker-compose exec php bash
 
-    -cp .env.example .env、環境変数を変更
+    composer install
 
-    -php artisan key:generate
-    -php artisan migrate
-    -php artisan db:seed
+    cp .env.example .env
+    ※環境変数を変更
+
+    php artisan key:generate
+    php artisan migrate
+    php artisan db:seed
 
 ---
 
 #開発環境
 
-    -トップ画面 http://localhost/
+    トップ画面 http://localhost/
 
-    -ユーザー登録画面 http://localhost/register/
+    ユーザー登録画面 http://localhost/register/
 
-    -phpMyAdmin http://localhost:8080/
+    phpMyAdmin http://localhost:8080/
 
-    -Mailhog http://localhost:8025/
+    Mailhog http://localhost:8025/
 
 ---
 
 #使用技術
 
-    -PHP 8.4.12
-    -laravel 8.83.29
-    -Composer 2.8.12
-    -MySQL 8.0.26
-    -Docker 4.43.2
-    -nginx 1.21.1
-    -HTML/CSS
-    -その他:Fortify
+    PHP 8.4.12
+    laravel 8.83.29
+    Composer 2.8.12
+    MySQL 8.0.26
+    Docker 4.43.2
+    nginx 1.21.1
+    HTML/CSS
+    その他:Fortify
 
 ---
 
