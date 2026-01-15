@@ -16,7 +16,7 @@
 
 ##Dockerビルド
 
-    -git clone git@github.com:yoichi-hashimoto/COACHTECH_attendance.git
+    -git clone git@github.com:yoichi-hashimoto/coachtech_attendance.git
     -docker compose up -d --build
 
 ##laravel環境構築
