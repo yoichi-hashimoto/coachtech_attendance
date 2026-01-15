@@ -26,7 +26,7 @@
 
     -cp .env.example .env、環境変数を変更
 
-    -php artisan key generate
+    -php artisan key:generate
     -php artisan migrate
     -php artisan db:seed
 
